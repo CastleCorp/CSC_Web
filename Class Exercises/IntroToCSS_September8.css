@@ -1,0 +1,64 @@
+html {
+	cursor: url(https://github.com/CastleCorp/anotha.one/blob/gh-pages/img/hands.png?raw=true), auto;
+}
+
+body{
+	margin-left: 1in;
+	margin-right: 100px;
+
+	background: darkGray;
+	background-image: url('http://i.imgur.com/BiSmXaq.png'), url('http://i.imgur.com/XHuy0NJ.png'), url('http://i.imgur.com/okpRxJU.png');
+	animation: snow 10s linear infinite both;
+}
+
+h1 {
+	color: #00459b;
+}
+
+h1:hover {
+	animation: rainbow 2s linear infinite both;
+}
+
+h2 {
+	background-color: #009b21;
+}
+
+ul:nth-of-type(2) li {
+	color: brown;
+}
+
+@keyframes snow {
+	0% {
+		background-position: 0px 0px, 0px 0px, 0px 0px;
+	}
+	50% {
+		background-color: #85a9bf;
+	}
+	100% {
+		background-position: 300px 300px, 400px 400px, 500px 500px;
+	}
+}
+
+@keyframes rainbow {
+	0% {
+		color: magenta;
+	}
+	15% {
+		color: purple;
+	} 
+	30% {
+		color: blue;
+	} 
+	45% {
+		color: green;
+	}
+	60% {
+		color: yellow;
+	}
+	80% {
+		color: orange;
+	}
+	100% {
+		color: red;
+	}
+}
