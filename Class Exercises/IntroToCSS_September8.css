@@ -1,7 +1,3 @@
-html {
-	cursor: url(https://github.com/CastleCorp/anotha.one/blob/gh-pages/img/hands.png?raw=true), auto;
-}
-
 body{
 	margin-left: 1in;
 	margin-right: 100px;
@@ -13,10 +9,8 @@ body{
 
 h1 {
 	color: #00459b;
-}
+	text-align: center;
 
-h1:hover {
-	animation: rainbow 2s linear infinite both;
 }
 
 h2 {
@@ -61,4 +55,23 @@ ul:nth-of-type(2) li {
 	100% {
 		color: red;
 	}
+}
+
+@keyframes textMove {
+	
+	50% {
+		transform: translateX(1%);
+	}
+}
+
+html {
+	cursor: url(https://github.com/CastleCorp/anotha.one/blob/gh-pages/img/hands.png?raw=true), auto;
+}
+
+h1:hover {
+	animation: rainbow 2s linear infinite both;
+}
+
+h2:hover {
+	animation: textMove .s linear;
 }
