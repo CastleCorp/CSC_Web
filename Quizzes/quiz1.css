@@ -1,0 +1,45 @@
+body {
+	background: rgb(0,145,193);
+}
+
+h1 {
+	color: white;
+	text-align: center;
+	font-size: 40px;
+	margin-bottom: 0px;
+}
+
+h3 {
+	color: white;
+	text-align: center;
+	font-size: 2em;
+	margin-top: 0px;
+}
+
+input {
+	display: block;
+	width: 100%;
+	height: 2em;
+	margin-bottom: 15px;
+}
+
+.form-container {
+	background: white;
+	width: 40%;
+	margin: auto;
+	padding: 20px;
+}
+
+#submit {
+	background: rgb(0,145,193);
+	color: white;
+	width: 100%;
+	font-size: 1.25em;
+}
+
+p {
+	width: 75%;
+	margin: auto;
+	padding: 20px;
+	text-align: center;
+}
