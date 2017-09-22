@@ -21,7 +21,7 @@ input {
 	border: 2px solid black;
 	width: 60%;
 	float: right;
-	margin-bottom: 5px;
+	margin-bottom: 0px;
 }
 
 label {

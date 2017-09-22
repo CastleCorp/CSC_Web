@@ -1,0 +1,17 @@
+.jumbotron {
+	text-align: center;
+}
+
+.pink {
+	background-color: lightpink;
+	margin: 1px;
+}
+
+h1 {
+	text-align: center;
+}
+
+.box {
+	border: 1px solid black;
+	background-color: rgb(217,204,206);
+}
