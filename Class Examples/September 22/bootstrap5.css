@@ -1,0 +1,34 @@
+/* bootstrap5.css 1.0 9/22/2017
+  
+  Copyright(C) 2017 David J. Powell
+ */
+ .container {
+  color: #73000a;
+}
+
+.navbar-default,
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover {
+  background-color: #73000a;
+  color: white;
+}
+
+.navbar-default .navbar-nav > li > a,
+.navbar-default .navbar-nav > li > a.active,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-header a.navbar-brand:hover
+ {
+  color: white;
+}
+
+.navbar-default .navbar-brand {
+  color: white;
+}
+
+a.navbar-brand:hover,
+.navbar-nav li a:hover {
+  color: white;
+  text-decoration: underline;
+}
