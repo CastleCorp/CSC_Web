@@ -7,6 +7,6 @@ function repay(years, annualInterestRate, amountBorrowed) {
 
 var borrowed = prompt("Amount borrowed ($):")
 var years = prompt("Years of the loan:")
-var interestRate = prompt("Annual interest rate:")
+var interestRate = prompt("Annual interest rate (%):")
 
 alert("Your payment is: $" + repay(years, interestRate, borrowed))
