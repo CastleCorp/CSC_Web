@@ -1,0 +1,43 @@
+.box {
+	width: 40%;
+	padding: 1%;
+	border: 3px solid black;
+	background-color: white;
+	margin: auto;
+}
+
+button.submit {
+	margin-top: 5%;
+	padding: 2%;
+	width: 35%;
+	display: inline-block;
+	margin-left: 10%;
+	background-color: black;
+	color: white;
+	border: none;
+}
+
+.error {
+	color: red;
+	text-align: center;
+}
+
+.hidden {
+	display: none;
+}
+
+h1 {
+	text-align: center;
+}
+
+input {
+	display: block;
+	width: 100%;
+	height: 1.5em;
+	margin-bottom: 10px;
+	border: 2px solid black;
+}
+
+#volumeInput, #surfaceAreaInput {
+	background-color: rgba(230, 230, 230, 0.75)
+}

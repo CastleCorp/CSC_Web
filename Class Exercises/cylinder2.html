@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cylinder Calculator</title>
+	<link rel="stylesheet" type="text/css" href="cylinder2.css">
+</head>
+<body>
+  <div class="box">
+  	<h1>Cylinder Calculator</h1>
+  	<h3 class="error hidden" id="errorMessage">Error. Please check your inputs.</h3>
+  	<form id="form">
+  		<div>
+  		  <label for="radiusInput">Radius:</label>
+  		  <input type="number" name="radius" id="radiusInput" required="true" min="0" placeholder="0">
+  		</div>
+  		<div>
+  		  <label for="heightInput">Height:</label>
+  		  <input type="number" name="height" id="heightInput" required="true" min="0" placeholder="0">
+  		</div>
+  		<div>
+  			<label for="volumeInput">Volume:</label>
+  			<input type="number" name="volume" id="volumeInput" disabled>
+  		</div>
+  		<div>
+  			<label for="surfaceAreaInput">Surface Area:</label>
+  			<input type="number" name="surfaceArea" id="surfaceAreaInput" disabled>
+  		</div>
+  		<button class="submit" type="submit" id="calculateButton">Calculate</button>
+  		<button class="submit" id="resetButton">Reset</button>
+  	</form>
+  </div>
+  <script type="text/javascript" src="cylinder2.js"></script>
+</body>
+</html>
