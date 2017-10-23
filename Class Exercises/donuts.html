@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!-- elon.html 1.0 10/17/2017
+
+     Copyright (c) David J. Powell -->
+<html>
+<head>
+  <title>Elon Donuts</title>
+  <link type="text/css" rel="stylesheet" href="donuts.css">
+  <script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+</head>
+<body>
+  <h1>Elon Delicious Donuts</h1>
+  <h2>All donuts 60 cents each, cake or glazed!</h2>
+  <div id="outer">
+   <form action="http://wikipedia.org"> 
+    <div>
+      <label for="buyer-name">Name:</label>
+      <input type="text" id="buyer-name" name="buyer-name"
+        required minlength="1">
+    </div>
+    <div>
+      <label for="caked-donuts"># of caked donuts:</label>
+      <input type="number" id="caked-donuts" name="caked-donuts"
+        required min="0" value="0">
+    </div>
+    <div>
+      <label for="glazed-donuts"># of glazed donuts:</label>
+      <input type="number" id="glazed-donuts" name="glazed-donuts"
+        required min="0" value="0">
+    </div>
+    <div>
+      <label for="subtotal">Subtotal:</label>
+      <input type="text" id="subtotal" name="subtotal"  
+        disabled>
+    </div>
+    <div>
+      <label for="tax">Tax:</label>
+      <input type="text" id="tax" name="tax"  
+        disabled>
+    </div>
+    <div>
+      <label for="total">Total:</label>
+      <input type="text" id="total" name="total"  
+        disabled>
+    </div>
+    <div>
+      <label for="place">  </label>
+      <input type="submit" id="place" value="Place a Order"</button>
+    </div>
+  </div>
+
+<script type="text/javascript" src="donuts.js"></script>
+</body>
+</html>
